@@ -14,4 +14,7 @@ git create potato
 
 # edit the file potato with $EDITOR.  After $EDITOR finishes, add it to git
 git edit potato
+
+# git-edit the file potato with Sublime Text instead of $EDITOR.  Note that we use subl's -w argument to wait for it to finish before continuing.  You might consider making an alias if you want to do this often.
+git edit potato "subl -w"
 ```
