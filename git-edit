@@ -1,3 +1,3 @@
 #!/bin/sh
-eval $EDITOR $1
+eval ${2:-${EDITOR:-vim}} $1
 git add $1
